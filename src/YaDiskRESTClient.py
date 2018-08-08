@@ -53,4 +53,3 @@ class YaDiskRESTClient:
             else:
                 type = "Папка"
             print("Имя: " + item["name"] + "\n" + "Тип: " + type + "\n" + "Путь до файла: " + item["path"] + "\n")
-
